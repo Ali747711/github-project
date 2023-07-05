@@ -1,0 +1,206 @@
+body {
+         margin: 0;
+         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+         font-size: 1rem;
+         font-weight: 400;
+         line-height: 1.5;
+         color: #212529;
+         text-align: left;
+         background-color: #fff;
+}
+
+.container {
+         width: 1140px;
+         margin: 0 auto;
+}
+
+.to-uppercase {
+         text-transform: uppercase;
+}
+
+.clearfix {
+         clear: both;
+}
+
+.section-subtitle {
+         text-transform: uppercase;
+         letter-spacing: 2px;
+         font-weight: 500;
+         position: relative;
+         margin-bottom: 10px;
+         color: #888;
+}
+
+.section-title {
+         font-size: 42px;
+         font-weight: 700;
+         margin-bottom: 10px;
+         padding: 0;
+         line-height: 52px;
+         text-transform: capitalize;
+         color: #05364d;
+
+}
+
+.button {
+         font-size: 14px;
+         font-weight: 500px;
+         margin-top: 30px;
+         padding: 20px 40px;
+         background: linear-gradient(to right, #1345e6 0%, #ed239f 51%, #1345e6 100%);
+         background-size: 200% auto;
+         border: none;
+         cursor: pointer;
+         color: #ffffff;
+         border-radius: 5px;
+}
+
+.button:hover {
+         background-position: right center;
+}
+
+.blur-line {
+         display: inline-block;
+         margin-left: 0.32rem;
+         width: 80px;
+         height: 4px;
+         background-color: rgba(237, 35, 159, 0.6);
+         filter: blur(4px);
+         border-radius: 5px;
+}
+
+.blur-line2 {
+         display: inline-block;
+         margin-left: 5px;
+         width: 80px;
+         height: 2.5px;
+         background: linear-gradient(to right, #1345e6 0%, #ed239f 51%, #1345e6 100%);
+         background-size: 200% auto;
+         filter: blur(0.3px);
+         border-radius: 1px;
+         box-sizing: border-box;
+}
+
+/* Main-header styles */
+
+.main-header {
+         position: fixed;
+         left: 0;
+         width: 100%;
+         background-color: white;
+         box-shadow: 0px 3px 16px 0px rgb(0 0 0 / 10%);
+         z-index: 10;
+}
+
+.main-header_logo {
+         display: inline-block;
+         vertical-align: middle;
+}
+
+.main-header_logo img {
+         width: 64px;
+}
+
+/* Main-navigation styles */
+
+.main-navigation {
+         display: inline-block;
+}
+
+.main-navigation_item {
+         display: inline-block;
+         vertical-align: middle;
+         padding: 10px;
+}
+
+.main-navigation_item a {
+         text-decoration: none;
+         text-transform: uppercase;
+         color: #05364d;
+         font-size: 12px;
+         font-weight: 500;
+}
+
+.main-navigation_item:hover a {
+         color: #efb6df;
+         transition: 0.5s;
+}
+
+.main-navigation_item.active a {
+         color: #efb6df;
+
+}
+
+/* Footer section styles */
+
+.footer {
+         padding: 60px 0;
+         background-color: #021017;
+         text-align: center;
+}
+
+.footer__image img {
+         width: 170px;
+         padding-left: 27px;
+         color: white;
+         box-sizing: border-box;
+}
+
+.footer__navigation-item {
+         display: inline-block;
+         margin-right: 20px;
+         text-transform: uppercase;
+}
+
+.footer__navigation-item:hover a {
+         background: linear-gradient(to right, #1345e6 0%, #ed239f 51%, #1345e6 100%);
+         background-size: 200% auto;
+         transition: ease-in-out;
+}
+
+.footer__navigation-item a {
+         color: white;
+         text-decoration: none;
+}
+
+.social__network {
+         display: inline-block;
+         width: 45px;
+         height: 45px;
+         line-height: 45px;
+         text-align: center;
+         background: #ffffff;
+         border-radius: 36px;
+         color: #05364d;
+         font-size: 16px;
+         margin-right: 12px;
+}
+
+.social__network:hover {
+         background: linear-gradient(to right, #1345e6 0%, #ed239f 51%, #1345e6 100%);
+         background-size: 200% auto;
+         transition: ease-in-out;
+}
+
+.social__network:hover a {
+         color: white;
+
+}
+
+.social__network a {
+         color: #021017;
+}
+
+.footer__text {
+         color: #797979;
+}
+
+@media only screen and (max-width:767px) {
+         .container {
+                  width: 96%;
+         }
+
+         .main-navigation {
+                  display: none;
+         }
+}

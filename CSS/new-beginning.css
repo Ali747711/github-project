@@ -1,0 +1,510 @@
+
+
+.text-discribtion{
+    font-size: 19px;
+    color: #888;
+    letter-spacing: 1px;
+    line-height: 27px;
+    
+}
+
+
+
+
+/* Main-section styles  */
+
+.main-banner{
+    background: url('../Images/main-banner.png') no-repeat top center;
+    background-position: center;
+    background-size: cover;
+    min-height: 890px;
+
+}
+
+.main-section{
+    padding-top: 9.68rem;
+    padding-bottom: 9.68rem;
+    padding-left: 2.3rem;
+    padding-right: 1.8rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .main-section > div{
+    width: 50%;
+    float: left;
+} */
+
+.main-section_welcome{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 1.25rem;
+    letter-spacing: 2px;
+    color: #797979;
+}
+
+.main-section_introduction{
+    margin-top: 1.25rem;
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 1.25rem;
+    color: #05364E;
+}
+
+.main-section_position{
+    color: #05364E;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 1.25rem;
+}
+
+.main-section_icons a{
+    color: #8FA1AA;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.main-section_icons a:hover{
+    color: rgb(237, 35, 159);
+
+}
+
+
+
+.main-section_action{
+    margin-top: 1.8rem;
+}
+
+.main-section_picture{
+    text-align: right;
+}
+
+
+/* Statistics section styles */
+
+.main-statistics{
+    padding-top: 6.25rem;
+    display: flex;
+}
+
+.main-statistics_items{
+    
+    width: 150px;
+    background-color: #F8FAFF;
+    text-align: center;
+    padding: 0.32rem 0.625rem;
+    margin-right: 1.25rem;
+}
+
+.main-statistics_number{
+    font-size: 30px;
+    margin-bottom:0.625rem;
+    background: linear-gradient(90deg, #1345e6 0%, #ed239f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-statistics_definition{
+    font-size: 16px;
+    color: #797979;
+    font-weight: 300;
+}
+
+/* About-me section styles */
+
+.about-me{
+    padding:6.25rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.about-me > div{
+    /* width: 50%;
+    float: left; quyidagi yozilagan xossalar flex mavzusida oldin o`rganilgan bilimlar asosida yozilgan */
+    flex: 1;
+}
+
+.about-me img{ 
+    width: 90%;
+}
+
+
+
+/* Mening xizmatlarim section styles */
+
+.main-services{
+    padding-top:4.38rem;
+    display: inline-block;
+}
+
+.main-services_items{
+    /* display: flex;
+    justify-content: space-between; */
+}
+.main-services_item{
+    float: left;
+    width: 30%;
+    text-align: center;
+    margin-right:3%;
+    background-color:#f8faff ;
+    padding: 4.25rem 2.37rem;
+    box-sizing: border-box;
+
+}
+
+.main-services_item a{
+    text-decoration: none;
+    color: #05364d;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.main-services_item:hover{
+    background-color: #5f30ff;
+    border-radius: 50px;
+    transition: all 1s ease 0s;
+}
+
+.main-services_item:hover .service-title,
+.main-services_item:hover .text-discribtion,
+.main-services_item:hover .service-link{
+    color: #ffffff;
+}
+
+/* Clients section styles */
+
+.clients-section{
+    padding-top: 6.1rem;
+}
+
+.clients-section_items{
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+
+
+.clients-section_items > div{
+    width: 50%;
+    float: left;
+}
+
+.clients-section_image img{
+    width: 90%;
+    box-sizing: border-box;
+}
+
+.clients-section_info{
+    padding-top: 3.125rem;
+}
+
+.clients-name{
+    font-size: 23px;
+    margin-bottom: 0.25rem;
+    font-weight: 500;
+    color: #212529;
+}
+
+.clients-position{
+    font-size: 17px;
+    font-weight: 400;
+    color: #212529;
+}
+
+.clients-opinion{
+    font-size: 18px;
+    font-weight: 300;
+    color: #888;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.clients-opinion_rate i {
+    color: #ffd804;
+    font-size: 15px;
+}
+
+
+
+/* Portfolio-section styles */
+
+.portfolio-section{
+    padding: 6.25rem 0;
+}
+
+.portfolio-section_clicks{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio-section_clicks li{
+    display: inline-block;
+    margin-right: 2.37rem;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #05364d;
+    cursor: pointer;
+}
+
+.portfolio-section_clicks li.active, 
+.portfolio-section_clicks li:hover {
+    color: #1345e6;
+}
+
+.portfolio-section_items{
+    position: relative;
+    margin-top: 3.125rem;
+    width: 100%;
+    height: 840px;
+}
+
+.portfolio-section_item{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0.625rem;
+}
+.portfolio-section_item img{
+    height: 837.11px;
+    width: 555px;
+}
+
+.portfolio-padding-s1{
+    padding-left: 0;
+}
+
+.portfolio-section_item-2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.625rem;
+    box-sizing: border-box;
+}
+
+.portfolio-section_item-2 img{
+    width: 555px;
+}
+
+.portfolio-section_item-3{
+    position: absolute;
+    right: 0%;
+    top: 322px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.portfolio-section_item-3 img{
+    width: 555px;
+    height: 517px;
+}
+
+.portfolio-section_overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    
+    transition: all 0.8s ease 0s;
+
+}
+
+.portfolio-section_info{
+    position: absolute;
+    bottom: 44px;
+    left: 80px;
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+
+}
+
+.portfolio-section_info a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.portfolio-section_item:hover .portfolio-section_overlay{
+    visibility: visible;
+    top: 30px;
+    left: 30px;
+    z-index: 1;
+    transition: all 0.8 ease-in-out;
+    background: rgba(19,69,230,0.9);
+}
+
+.portfolio-section_item:hover .portfolio-section_info{
+    visibility: visible;
+    left: 100px;
+    bottom: 40px;
+    z-index: 1;
+    opacity: 1;
+    transition: all 1 ease-in-out;
+
+}
+
+.portfolio-section_item-2:hover .portfolio-section_overlay{
+    visibility: visible;
+    top: 30px;
+    left: 30px;
+    z-index: 1;
+    transition: all 0.8 ease-in-out;
+    background: rgba(19,69,230,0.9);
+}
+
+.portfolio-section_item-2:hover .portfolio-section_info{
+    visibility: visible;
+    left: 100px;
+    bottom: 40px;
+    z-index: 1;
+    opacity: 1;
+    transition: all 1 ease-in-out;
+}
+
+.portfolio-section_item-3:hover .portfolio-section_overlay{
+    visibility: visible;
+    top: 30px;
+    left: 30px;
+    z-index: 1;
+    transition: all 0.8 ease-in-out;
+    background: rgba(19,69,230,0.9);
+}
+
+.portfolio-section_item-3:hover .portfolio-section_info{
+    visibility: visible;
+    left: 100px;
+    bottom: 40px;
+    z-index: 1;
+    opacity: 1;
+    transition: all 1 ease-in-out;
+}
+
+ /* Blog-section styles  */
+
+.blog-section{
+    padding-top: 6.25rem;
+}
+
+.blog-items{
+    padding-top: 3.125rem;
+}
+
+.blog-item{
+    width: 30%;
+    margin-right: 3%;
+    display: inline-block;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.blog-item:hover{
+    transition: all 2 ease;
+
+}
+
+.blog-item_image{
+    overflow: hidden;
+
+}
+
+.blog-item:hover .blog-item_image img{
+    transform: scale(1.1);
+
+
+}
+
+.blog-item_image img{
+    width: 100%;
+    vertical-align: middle;
+    transition: all 0.4s ease 0s;
+}
+
+
+
+.blog-item_info{
+    background-color: rgb(248 250 255);
+    color: rgb(121 121 121);
+    padding: 1.8rem;
+}
+
+.blog-item_main-info span{
+    font-size: 0.97rem;
+    font-weight: lighter;
+    margin-right: 1.75rem;
+}
+
+.blog-item_main-info i{
+    margin: right 0.32rem;
+}
+
+.blog-item_title{
+    font-size: 20px;
+    margin-top: 1.25rem;
+    margin-bottom: 15px;
+    color: rgb(5,54,77);
+    font-weight: 700;
+}
+
+.blog-item_report{
+    line-height: 27px;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.blog-item_action{
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: rgb(5 ,54, 77);
+    cursor: pointer;
+}
+
+.blog-item_action:hover {
+    color: rgb(237, 35, 159);
+}
+
+.blog-item:hover{
+    box-shadow: rgba(5, 54, 77, 0.4) 0px 10px 20px;
+}
+
+/* Partners styles */
+
+.partners{
+    padding: 6.25rem 0;
+}
+
+.partner{
+    padding:0 1.8rem;
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+}
+
+.partner:hover{
+    box-shadow: 0px 10px 20px rgb(5 54 77 / 30%);
+}
+
+     /* Footer styles */
+
+
+
+     /* /Footer styles */
+
+
+/* Kichik smartfonlar uchun moslashtirish */
+
+@media only screen and (max-width:767px){
+    .main-section_welcome{
+        font-size: 40px;
+    }
+}
+

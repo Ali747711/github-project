@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form -example</title>
+        <style>
+
+            .container{
+                padding: 80px;
+            }
+            input,select,textarea{
+                width:100%;
+                margin-top: 10px;
+                margin-bottom: 20px;
+                padding: 10px;
+                border-radius: 5px;
+                box-sizing: border-box;
+                border: 1px solid #ccc;
+            }
+
+            button{
+                padding: 10px;
+                border: none;
+                background-color:#5692B4;
+                color: #ffff;
+                cursor: pointer;
+                border-radius: 50px;
+            }
+
+            .button:hover{
+                background-color:#016EC5;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <form action="./server.php">
+                <label for="firstname">Ism</label>
+                <input type="text" name="firstname" placeholder="Ismingiz">
+                <label for="surenmae">Familiya</label>
+                <input type="text" name="surenam" placeholder="Familiyangiz">
+                <label for="country">Davlat</label>
+                <select name="country" id="country">
+                    <option value="uzbekistan">O'zbekiston</option>
+                    <option value="South Korea">Janubiy Koreya</option>
+                    <option value="Qatar">Qatar</option>
+                    <option value="North Korea"> Shimoly Koreya</option>
+                </select>
+                <label for="message">Xabar</label>
+                <textarea name="message" id="message" placeholder="jo'natish uchun malumot kiritilsin" style="font-weight:lighter ;"></textarea>
+                <button type="submit" class="button">Jo'natish</button>
+            </form>
+        </div>
+    </body>
+</html>

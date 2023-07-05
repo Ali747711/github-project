@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Example-1</title>
+        <style>
+
+            .container{
+                padding: 70px;
+            }
+
+            input, select,textarea{
+                width: 100%;
+                margin-top: 10px;
+                margin-bottom: 25px;
+                padding: 10px;
+                border-radius: 5px;
+                box-sizing: border-box;
+            }
+
+            .button{
+                padding: 10px;
+                border-radius: 10px;
+                background-color: #4B6043;
+                cursor: pointer;
+                color: white;
+                border: none;
+            }
+
+            button:hover{
+                background-color:#95BB72 ;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <form action="/server.php" method="get">
+                <label for="username">Ism</label>
+                <input type="text" id="username" placeholder="ismingiz">
+                <label for="familyname">Familiya</label>
+                <input type="text" name="familyname" id="familyname" placeholder="familiyangiz">
+                <label for="country">Davlat</label>
+                    <select name="country" id="country">
+                        <option value="uzbekistan">O'zbekiston</option>
+                        <option value="South Korea"> Janubiy Koreya</option>
+                        <option value="Russia">Rossiya</option>
+                        <option value="United Kingdom">Angilya</option>
+                    </select>
+                <label for="message">Xabar</label>
+                <textarea name="message" id="message"></textarea>
+                <button type="submit" class="button">Jo`natish</button>
+            </form>
+        </div>
+    </body>
+</html>
